@@ -22,3 +22,8 @@ Run the following command in your terminal:
 ```bash
 chmod +x build_proj.sh
 ```
+
+## Failed GPS implementation
+The original project idea was to implement an autonomous drone controlled by missions containing different checkpoints defined by a set of 3D coordinates. 
+
+Unfortunately this was not possible as we realized too late that the GPS sensor choosen didn't include a compass. This issue was discovered at a very late time in the project and with the course's time constraints we didn't have time to find a substitue part or fix for this issue.
